@@ -11,4 +11,3 @@
 * Python is a interpreted Language where code is executed line by line.  
 * Python is platform independent. 
 * Python is a scripting language. 
-
