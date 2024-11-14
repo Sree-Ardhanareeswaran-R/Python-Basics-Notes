@@ -7,6 +7,8 @@
 * Python is not perfectly a OOP language because does not support Overloading. 
 * Python is functional programming language where it supports function to write code.
 * Python is procedural programming language where we don't need function or class to write code. 
-* Python is a dynamically typed language where we don't need mentioning the data type. 
+* Python is a dynamically typed language where we don't need mentioning the data type.
+* Python is a interpreted Language where code is executed line by line.  
 * Python is platform independent. 
 * Python is a scripting language. 
+
