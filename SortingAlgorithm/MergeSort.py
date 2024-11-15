@@ -1,6 +1,14 @@
 def sort(lst):
     if len(lst) <= 1:
         return lst
+    
+    left = lst[:len(lst) // 2]
+    right = lst[len(lst) // 2 :]
+
+    sort(left)
+    sort(right)
+
+    merge(left, right, lst)
 
 
 def merge(arr1, arr2, arr3):
@@ -11,7 +19,7 @@ def merge(arr1, arr2, arr3):
             i += 1
 
         else:
-            arr2[k] = arr2[j]
+            arr3[k] = arr2[j]
             j += 1
 
         k += 1
@@ -26,7 +34,7 @@ def merge(arr1, arr2, arr3):
         j += 1
         k += 1
 
-
-
 # Input
 arr = [38, 27, 43, 3, 9, 82, 10]
+sort(arr)
+print(arr)
