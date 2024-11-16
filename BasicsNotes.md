@@ -11,3 +11,6 @@
 * Python is a interpreted Language where code is executed line by line.  
 * Python is platform independent. 
 * Python is a scripting language. 
+
+# Memory Management in Python:
+&nbsp; Python manages the memory very efficiently. Python will not allows any duplicate variable. If there is any duplicate variable declared the old value will be replaced by new variable and old variable go to garbage collector. Especially for integer, when same integer is declared in two different variable then two different variable points to same memory location. By this python memory management creates a robust and efficient environment to work with. 
